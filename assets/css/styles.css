@@ -1,0 +1,62 @@
+* {
+  font-family: "Manrope", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 1rem;
+}
+
+header h1 {
+  text-decoration: underline;
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Lora", serif;
+  text-align: center;
+}
+
+.elemento_consulta_dental {
+  font-weight: 700;
+  padding: 5px;
+  border: 1px solid red;
+}
+
+.elemento_consulta_dental_par {
+  background-color: #eee;
+}
+
+.contenedor_pacientes,
+.contenedor_dental_isapre,
+.lista_traumatologia_fonasa {
+  width: 90%;
+  margin: auto;
+  @media screen and (min-width: 400px) {
+    width: 50%;
+  }
+}
+.contenedor_pacientes p {
+  border: 1px solid black;
+  font-weight: 700;
+}
+
+.contenedor_pacientes p:nth-of-type(2n + 1) {
+  background-color: #eee;
+}
+.contenedor_dental_isapre p {
+  border: 1px solid black;
+  font-weight: 700;
+}
+.contenedor_dental_isapre p:nth-of-type(2n + 1) {
+  background-color: #eee;
+}
+
+.lista_traumatologia_fonasa p {
+  border: 1px solid black;
+  font-weight: 700;
+}
+.lista_traumatologia_fonasa p:nth-of-type(2n + 1) {
+  background-color: #eee;
+}
